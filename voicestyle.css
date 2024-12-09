@@ -1,0 +1,34 @@
+
+#muteButton {
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    display: inline-flex;
+    top: 20px;
+    left: calc(15px + 7vw);
+    height: 3vw;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+  }
+ 
+  #muteButton svg {
+    width: 100%;
+    height: 70%;
+  }
+  
+  #muteRemoteButton {
+    overflow: hidden;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    display: inline-flex;
+    top: calc(30px + 3vw);
+    left: calc(15px + 7vw);
+    height: 3vw;
+    aspect-ratio: 1 / 1;
+  }  
+  #muteRemoteButton svg {
+    width: 100%;
+    height: 100%;
+  }
+  

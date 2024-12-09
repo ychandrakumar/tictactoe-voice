@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- Google tag (gtag.js) -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4GE90TGFEK"></script>
+   <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+   
+     gtag('config', 'G-4GE90TGFEK');
+   </script>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="https://cdn.glitch.global/ffac02f9-918e-4b95-918b-097e09915ea5/images.png?v=1729186327363">
+    <!-- <link rel="shortcut icon" type="image/png" href="" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-firestore.js"></script>
+  
+
+    <link rel="stylesheet" href="styles.css">
+     <link rel="stylesheet" href="voicestyle.css">
+    <title>Tic-Tac-Toe</title>
+</head>   
+<body>
+     
+         
+        <div class="start-div">
+        <p class="mater" id="text">mega-tictactoe</p>
+        <div id="gif-container">
+            <img id="gif" src="" width="100vw" height="100vw" alt="GIF">
+        </div>
+
+       <div class="myimg" id="myimg"></div>
+       <div class="oppimg" id="oppimg"></div>
+       
+
+        <div id="info-button"><img src="https://cdn.glitch.global/ffac02f9-918e-4b95-918b-097e09915ea5/commentbox.svg?v=1698943774325" width="30vw"></div>
+        <div id="info-tooltip" class="extrasbox">
+           <div id="101" class="extras"><img src="https://cdn.glitch.global/ffac02f9-918e-4b95-918b-097e09915ea5/1.gif?v=1698943735437" width="50vw" alt=""></div>
+           <div id="102" class="extras"><img src="https://cdn.glitch.global/ffac02f9-918e-4b95-918b-097e09915ea5/2.gif?v=1698943841043" width="50vw" alt=""></div>
+           <div id="103" class="extras"><img src="https://cdn.glitch.global/ffac02f9-918e-4b95-918b-097e09915ea5/3.gif?v=1698943871919" width="50vw" alt=""></div>
+           <div id="104" class="extras"><img src="https://cdn.glitch.global/ffac02f9-918e-4b95-918b-097e09915ea5/4.gif?v=1698943874262" width="50vw" alt=""></div>
+        </div>
+    
+       
+        <div class="container  buttons" id="buton">
+        <button id="btn-one" class="btn ">local</button>
+        <button id="btn-two" class="btn">online</button>
+        <button id="create-btn" class="room btn">create room</button>
+        <button id="enter-btn" class="room btn">enter code</button>
+        
+     
+
+    </div></div>
+    <div class="game-div">
+        
+        <div class="grid">
+            <!-- Tic-Tac-Toe grid will be created dynamically using JavaScript -->
+        </div> 
+        
+    </div>
+    <div class="container ">
+    <div class="container  footer row ">
+     
+    </div></div>
+    <script src="https://cdn.socket.io/4.6.1/socket.io.min.js"></script> 
+    <!-- <script src="/socket.io/socket.io.js"></script> -->
+    <!-- <script src="index.js"></script> -->
+    <script type="module" src="index.js"></script>
+    <script type="module" src="voice.js"></script>
+    <!-- <script type="module" src="socket.js"></script> -->
+  </body>
+</html>
+
+
+ 
